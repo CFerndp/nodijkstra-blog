@@ -13,4 +13,5 @@
         <h2 class="h3 mt-2 underline italic">{$t('common.header.subtitle')}</h2>
     </div>
     <LightSwitch />
+
 </header>

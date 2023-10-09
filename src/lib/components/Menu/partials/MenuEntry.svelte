@@ -6,5 +6,5 @@
 
 <a href={link}>
     <span class="badge bg-primary-500">{icon}</span>
-    <span class="flex-auto">{title}</span>
+    <span class="flex-auto hidden lg:block">{title}</span>
 </a>

@@ -5,7 +5,7 @@
     const year = new Date().getFullYear();
 </script>
 <footer class="text-center flex items-center justify-center">
-    <div class="p-5">
+    <div class="p-5 hidden md:block">
         <p>{$t('common.footer.title', {year})}</p>
         <p><a target="_blank" class="underline hover:text-blue-600"
               href="mailto:cristian.fernandez.del.pozo@gmail.com">{$t('common.footer.name')}</a></p>
