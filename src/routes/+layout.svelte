@@ -5,9 +5,9 @@
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
     import {AppShell, storePopup} from '@skeletonlabs/skeleton';
     import Header from "$components/Header/Header.svelte";
+
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
-
 
 <AppShell>
     <svelte:fragment slot="header"><Header /></svelte:fragment>
