@@ -1,6 +1,10 @@
-import i18n from 'sveltekit-i18n';
+import i18n, { type Config } from 'sveltekit-i18n';
 
-const config = ({
+type Params = {
+    year: number
+}
+
+const config: Config<Partial<Params>> = ({
     loaders: [
         {
             locale: 'es',

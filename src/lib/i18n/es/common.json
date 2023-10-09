@@ -1,5 +1,9 @@
 {
   "header": {
     "title": "NoDijkstra Website From Locale"
+  },
+  "footer": {
+    "title": "Made with ❤\uFE0F in {{year}} by",
+    "name": "Cristian Fernández"
   }
 }
