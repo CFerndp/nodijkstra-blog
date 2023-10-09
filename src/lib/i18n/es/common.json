@@ -6,5 +6,12 @@
   "footer": {
     "title": "Made with ❤\uFE0F in {{year}} by",
     "name": "Cristian Fernández"
+  },
+  "menu": {
+    "home": "Home",
+    "resume": "Resume",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
   }
 }

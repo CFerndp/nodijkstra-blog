@@ -19,6 +19,7 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			'$components': 'src/lib/components',
+			'$constants': 'src/lib/constants',
 		}
 	},
 };
