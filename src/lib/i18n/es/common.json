@@ -1,6 +1,7 @@
 {
   "header": {
-    "title": "NoDijkstra Website From Locale"
+    "title": "NoDijkstra",
+    "subtitle": "Avoiding the shortest path"
   },
   "footer": {
     "title": "Made with ❤\uFE0F in {{year}} by",
