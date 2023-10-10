@@ -19,7 +19,7 @@
             <Menu/>
         </section>
     </svelte:fragment>
-    <section class=" m-4 p-2 h-max">
+    <section class="m-4 p-2 h-max">
         <slot/>
     </section>
     <svelte:fragment slot="footer">

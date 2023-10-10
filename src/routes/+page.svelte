@@ -17,7 +17,7 @@
 
 <div class="container h-full mx-auto flex justify-center items-center">
     <div class="space-y-5">
-        <h1 class="h1">{$t('home.title')}</h1>
+        <h1 class="h1 underline text-primary-500">{$t('home.title')}</h1>
 
         <p>{$t('home.p1')}</p>
         <p>{$t('home.p2')}</p>
