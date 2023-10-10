@@ -15,9 +15,11 @@
         <Header/>
     </svelte:fragment>
     <svelte:fragment slot="sidebarLeft">
-        <Menu/>
+        <section class="mt-2 border-t-2 border-emerald-900 p-2 h-max">
+            <Menu/>
+        </section>
     </svelte:fragment>
-    <section class="m-5 border border-emerald-900 h-max">
+    <section class="border-t-2 m-2 p-2 border-emerald-900 h-max">
         <slot/>
     </section>
     <svelte:fragment slot="footer">

@@ -5,7 +5,7 @@
     import MenuEntry from "./partials/MenuEntry.svelte";
 </script>
 
-<nav class="list-nav border-t-2 border-emerald-900 pt-2 md:pt-2">
+<nav class="list-nav">
     <ul>
         <li>
             <MenuEntry link={Routes.Home} title={$t("common.menu.home")} icon="🏠"/>
