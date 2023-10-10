@@ -1,6 +1,18 @@
 <script lang="ts">
     import {t} from "$lib/i18n/translations";
+    import EasterCat from "$components/EasterCat/EasterCat.svelte";
+
+    let isEasterEggVisible = false;
+
+    const showEasterEgg = () => {
+        console.log('Miau!')
+        isEasterEggVisible = !isEasterEggVisible;
+    }
 </script>
+
+{#if isEasterEggVisible}
+    <EasterCat />
+{/if}
 
 <div class="container h-full mx-auto flex justify-center items-center">
     <div class="space-y-5">
@@ -10,7 +22,7 @@
         <p>{$t('home.p2')}</p>
         <p>{$t('home.p3')}</p>
         <p>{$t('home.p4')}</p>
-        <h2 class="h2">{$t('home.subtitle')}}</h2>
+        <h2 class="h2">{$t('home.subtitle')}</h2>
         <ol class="list">
             <li>
                 <span class="badge bg-primary-500">1.</span>
@@ -29,7 +41,7 @@
                 <span class="flex-auto">{$t('home.list.4')}</span>
             </li>
         </ol>
-        <p>{$t('home.footer')} <span class="underline hover:text-blue-600">{$t('home.easter')}</span></p>
+        <p>{$t('home.footer')} <button on:click={showEasterEgg} class="underline hover:text-blue-600">{$t('home.easter')}</button></p>
     </div>
 </div>
 
