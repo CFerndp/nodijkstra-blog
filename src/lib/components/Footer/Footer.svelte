@@ -1,6 +1,6 @@
 <script>
     import {t} from '$lib/i18n/translations';
-    import {Contact, GitHub, Instagram, LinkedIn} from "$components";
+    import {Contact, Repo, Instagram, LinkedIn} from "$components";
 
     const year = new Date().getFullYear();
 </script>
@@ -11,7 +11,7 @@
               href="mailto:cristian.fernandez.del.pozo@gmail.com">{$t('common.footer.name')}</a></p>
     </div>
         <a class="m-3" target="_blank" href="https://github.com/CFerndp">
-            <span><GitHub/></span>
+            <span><Repo/></span>
         </a>
         <a class="m-3"  target="_blank" href="https://www.linkedin.com/in/cferndp/">
             <span><LinkedIn/></span>
