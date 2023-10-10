@@ -13,6 +13,13 @@ const config: Config<Partial<Params>> = ({
                 await import('./es/common.json')
             ).default,
         },
+        {
+            locale: 'es',
+            key: 'home',
+            loader: async () => (
+                await import('./es/home.json')
+            ).default,
+        },
     ],
 });
 

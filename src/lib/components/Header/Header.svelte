@@ -4,9 +4,9 @@
 
 </script>
 
-<header class="flex justify-around items-center text-center">
+<header class="flex justify-around items-center text-center border-b-2 border-emerald-900 pb-2">
     <a href="/">
-        <img class="h-24 mr-2" src="/logo.png" alt="NoDijkstra Logo"/>
+        <img class="h-20 mr-2 lg:h-24" src="/logo.png" alt="NoDijkstra Logo"/>
     </a>
     <div>
         <h1 class="hidden md:block h1">{$t('common.header.title')}</h1>
