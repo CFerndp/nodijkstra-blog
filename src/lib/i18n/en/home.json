@@ -1,0 +1,16 @@
+{
+  "title": "Welcome to my little corner!",
+  "p1": "Hello and welcome! I'm Cristian Fernandez, a software developer passionate about creating solutions using technology.",
+  "p2": "In this space, I'll share my professional journey, notable projects, and thoughts on software architecture, front-end development, and various curiosities.",
+  "p3": "My goal is to connect with like-minded people, collaborate on exciting projects, and continue learning and growing in my field. Additionally, I travel quite a bit and love showing that nowadays you can work from anywhere on the planet :P",
+  "p4": "My mission is to learn and stay up to date with ICT. Through software development, I seek to solve problems and witness the world changing. Each project is an opportunity to bring ideas to life and make a difference.",
+  "subtitle": "What can you do around here?",
+  "list": {
+    "1": "Explore my CV to learn more about my experience and skills.",
+    "2": "Dive into my Blog and discover articles about technology and software development.",
+    "3": "Have a project in mind? Feel free to contact me, and let's discuss how I can assist you.",
+    "4": "Discover more about me in the About Me section, where I share my personal story and passions."
+  },
+  "footer": "Thanks for visiting my website! I hope you find interesting and valuable content. P.S.:",
+  "easter": "Kittens!"
+}

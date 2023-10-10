@@ -3,19 +3,19 @@
     "title": "NoDijkstra",
     "subtitle": "Avoiding the shortest path",
     "languages": {
-      "es": "Español",
-      "en": "Inglés"
+      "es": "Spanish",
+      "en": "English"
     }
   },
   "footer": {
-    "title": "Hecho con ❤\uFE0F en el {{year}} por",
+    "title": "Made with ❤️ in {{year}} by",
     "name": "Cristian Fernández"
   },
   "menu": {
-    "home": "Inicio",
+    "home": "Home",
     "resume": "CV",
     "blog": "Blog",
-    "about": "Acerca de mi",
-    "contact": "Contacto"
+    "about": "About",
+    "contact": "Contact"
   }
 }

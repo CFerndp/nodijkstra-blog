@@ -1,8 +1,9 @@
 <script lang="ts">
     import {t} from "$lib/i18n/translations";
-    import EasterCat from "$components/EasterCat/EasterCat.svelte";
+    import {EasterCat} from "$components";
 
     let isEasterEggVisible = false;
+
 
     const showEasterEgg = () => {
         console.log('Miau!')
